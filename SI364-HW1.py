@@ -1,18 +1,18 @@
-## HW 1 
+## HW 1
 ## SI 364 F17
 ## Due: September 19, 2017
 ## 500 points
 
 ## PART 1 - 100 points
 
-## First, set up a new-to-this-assignment virtual environment. To the Canvas assignment, you should submit:
-# - A screenshot showing your virtual environment activated and deactivated. You should feel comfortable activating and deactivating a virtual environment. ## NOTE: (You can call the virtualenv whatever you want, but remember you'll have to type it a lot and we will have to see it. It's not like a password -- consider it public.) 
-# - You should have installed the flask library and the requests library in the virtual environment. You should submit to this Canvas assignment a screenshot that shows the result of typing _ pip freeze _ at the command prompt with the virtual environment activated. 
+## First, set up a new-to-this-assignment conda environment. To the Canvas assignment, you should submit:
+# - A screenshot showing your environment activated and deactivated. You should feel comfortable activating and deactivating a virtual environment. ## NOTE: (You can call the env whatever you want, but remember you'll have to type it a lot and we will have to see it. It's not like a password -- consider it public.)
+# - A screenshot showing the result of typing conda list at the prompt when the environment is activated. 
 
 ######
 
 ## [PROBLEM 1] - 150 points
-## Below is code for one of the simplest possible Flask applications. Edit the code so that once you run this application locally and go to the URL 'http://localhost:5000/class', you see a page that says "Welcome to SI 364!" 
+## Below is code for one of the simplest possible Flask applications. Edit the code so that once you run this application locally and go to the URL 'http://localhost:5000/class', you see a page that says "Welcome to SI 364!"
 
 from flask import Flask
 app = Flask(__name__)
@@ -36,8 +36,8 @@ if __name__ == '__main__':
 # }
 
 
-## You should use the iTunes Search API to get that data. 
+## You should use the iTunes Search API to get that data.
 ## Docs for that API are here: https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
-## Of course, you'll also need the requests library and knowledge of how to make a request to a REST API for data. 
+## Of course, you'll also need the requests library and knowledge of how to make a request to a REST API for data.
 
-## Run the app (repeatedly) and try these URLs out!
+## Run the app locally (repeatedly) and try these URLs out!
